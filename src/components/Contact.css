@@ -1,0 +1,17 @@
+:root{
+    --background-contact-image: 
+        linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.Contact {
+    /* height: 100vh; */
+    background-image: var(--background-contact-image);
+}
+
+/* .query-form {
+    border-radius: 2rem;
+} */
+
+/* .form-input {
+    di
+} */

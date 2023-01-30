@@ -1,0 +1,26 @@
+:root{
+    --when-bg: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --where-bg: linear-gradient(to right, #373b44, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --about-bg: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    --what-bg: linear-gradient(to right, #43c6ac, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+;
+    
+}
+
+.what{
+    background-image: var(--what-bg);
+}
+
+.where{
+    background-image: var(--where-bg);
+}
+
+.when {
+    background-image: var(--when-bg);
+}
+
+.about {
+    background-image: var(--about-bg);
+}
