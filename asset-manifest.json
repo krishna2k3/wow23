@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/wow23/static/css/main.ab5af9c8.css",
+    "main.js": "/wow23/static/js/main.e0b9bcb8.js",
+    "static/media/rec transparent.png": "/wow23/static/media/rec transparent.c9f3780f6f743827378c.png",
+    "static/media/Ruthvik.jpg": "/wow23/static/media/Ruthvik.10fd5801a5956633d4a0.jpg",
+    "static/media/DU transparent.png": "/wow23/static/media/DU transparent.2d2574226f2da141e505.png",
+    "static/media/wow transparent.png": "/wow23/static/media/wow transparent.2355f3f722cb20aa2ba2.png",
+    "static/media/Abraar.jpg": "/wow23/static/media/Abraar.5b2cade3526f4ebbd4cf.jpg",
+    "static/media/Charanya C.jpg": "/wow23/static/media/Charanya C.c0300e5f4f493711fc50.jpg",
+    "static/media/Aishwaryalakshmi Arul.jpg": "/wow23/static/media/Aishwaryalakshmi Arul.d8384acbd8ab8ca87e2b.jpg",
+    "static/media/Vishal.jpg": "/wow23/static/media/Vishal.12c562c37c8ed7d835f0.jpg",
+    "static/media/Bharati B J.png": "/wow23/static/media/Bharati B J.65ea676e46ab910667d1.png",
+    "static/media/Pavithraa D.jpg": "/wow23/static/media/Pavithraa D.a97f9faba4570b06b38e.jpg",
+    "static/media/Rhea Harry William.jpg": "/wow23/static/media/Rhea Harry William.2aa057e2a19b2840e417.jpg",
+    "static/media/John Bosco.jpg": "/wow23/static/media/John Bosco.9f2c5e94b0424bd0a38d.jpg",
+    "static/media/Aaqil Sheriff.jpg": "/wow23/static/media/Aaqil Sheriff.91b9066b068504e7be40.jpg",
+    "static/media/Suchithra Sriram.jpg": "/wow23/static/media/Suchithra Sriram.ebb1d4eed6e313dab89e.jpg",
+    "static/media/Krishna.jpg": "/wow23/static/media/Krishna.4d870934eb8cd5a6ab29.jpg",
+    "static/media/Farhan Subi.jpg": "/wow23/static/media/Farhan Subi.79ad88b6120dee641faa.jpg",
+    "static/media/Poorna Padma M.jpg": "/wow23/static/media/Poorna Padma M.3699df155edcbfdad4f1.jpg",
+    "static/media/Nivedita J.jpg": "/wow23/static/media/Nivedita J.e75f360babb740fb87b8.jpg",
+    "static/media/Atrium transparent.png": "/wow23/static/media/Atrium transparent.9d486557bf8ba6b71e7a.png",
+    "static/media/instagram transparent.png": "/wow23/static/media/instagram transparent.75e0546a6b5abe4c0506.png",
+    "index.html": "/wow23/index.html",
+    "main.ab5af9c8.css.map": "/wow23/static/css/main.ab5af9c8.css.map",
+    "main.e0b9bcb8.js.map": "/wow23/static/js/main.e0b9bcb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab5af9c8.css",
+    "static/js/main.e0b9bcb8.js"
+  ]
+}
