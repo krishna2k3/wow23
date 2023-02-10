@@ -33,6 +33,14 @@
   animation: bg-animation 5s infinite alternate;
 } 
 
+/* .register-now{
+  background-image: var(--background-image);
+  background-color: #FF0000;
+  background-clip: text;
+  background-size: 100%;
+  animation: bg-animation 5s infinite alternate;
+} */
+
 .title-text-parent{
   /* background-color: rgb(255 251 235); */
   border-style: solid;

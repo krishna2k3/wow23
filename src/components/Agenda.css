@@ -1,0 +1,10 @@
+:root{
+    --agenda-bg: linear-gradient(180deg, #FFFFFF 0%, #6284FF 38%, #b8235a 71%, #3d1635 95%, #1c1a27 99%);
+    
+}
+
+.agenda{
+    background-image: var(--agenda-bg);
+    /* background-image: url(); */
+}
+

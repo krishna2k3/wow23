@@ -1,12 +1,16 @@
 :root{
-    --when-bg: linear-gradient(to right, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    --where-bg: linear-gradient(to right, #373b44, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --when-bg: linear-gradient(to left, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --where-bg: linear-gradient(to left, #373b44, #4286f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     --about-bg: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ;
     --what-bg: linear-gradient(to right, #43c6ac, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    --bus-bg: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
 ;
     
+}
+
+.bus{
+    background-image: var(--bus-bg);
 }
 
 .what{
@@ -23,4 +27,16 @@
 
 .about {
     background-image: var(--about-bg);
+}
+
+.about div{
+    box-shadow: 10px 0px 10px rgba(20, 20, 20, 0.8);
+}
+
+.about h1{
+    text-shadow: 10px 5px 10px rgba(20,20,20,1);
+}
+
+.about p{
+    text-shadow: 10px 5px 10px rgba(20,20,20,1);
 }

@@ -2,6 +2,7 @@ import { AnimatePresence, MotionConfig } from 'framer-motion';
 import React from 'react'
 import { motion } from "framer-motion";
 import { useState } from 'react';
+import "./Event.css";
 
 function Event(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +42,18 @@ function Event(props) {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 1 }}
                         >
+                            <motion.button
+                                className='p-[1rem] bg-green-500 rounded-[2rem] text-white mt-[1rem] shadow-[20px] font-bold'
+                                whileHover={{
+                                    scale: 1.1
+                                }}
+                                whileTap={{
+                                    scale: 1.1
+                                }}
+                            >
+                                <a target="_blank" rel='noreferrer noopener' 
+                                href={props.register} >Register ✍️</a>
+                            </motion.button>
                             <motion.h1 className='pt-[1rem] font-bold text-[25px]'>
                                 Details 🔍:
                             </motion.h1>

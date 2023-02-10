@@ -8,17 +8,13 @@ import { logos } from '../constants';
 const Hero = () => {
   // const scrollProgress = useScroll();
   return (
-    <div className={`h-[100vh] home my-block`}>
+    <div className={`h-[100vh] home my-block relative`}>
       <div className='my-centered'>
         <div className='logos p-[0px]'>
-          <img className='atrium-logo md:w-[100px] xs:w-[60px] w-[30px] md:h-[100px] xs:h-[60px] h-[30px] inline-block' src={logos[0]} alt='Atrium logo' />
-          <img className='rec-logo md:h-[100px] xs:h-[60px] h-[30px] inline-block mx-[20%]' src={logos[2]} alt='REC logo' />
-          <img className='du-logo md:w-[100px] xs:w-[60px] md:h-[100px] xs:h-[60px] w-[30px] h-[30px] inline-block' src={logos[1]} alt='Debating Union logo' />
+          <img className='atrium-logo md:w-[100px] xs:w-[60px] w-[40px] md:h-[100px] xs:h-[60px] h-[40px] inline-block' src={logos[0]} alt='Atrium logo' />
+          <img className='rec-logo md:h-[100px] xs:h-[60px] h-[40px] inline-block mx-[20%]' src={logos[2]} alt='REC logo' />
+          <img className='du-logo md:w-[100px] xs:w-[60px] md:h-[100px] xs:h-[60px] w-[40px] h-[40px] inline-block' src={logos[1]} alt='Debating Union logo' />
         </div>
-        {/* <div >
-          
-          <img className='wow-logo' src={logos[3]} alt='WOW logo'/>
-        </div> */}
         <div className='title-intro my-child md:text-[30px] sm:text-[20px] text-[15px] md:my-[30px] my-[100px]'>
           <p className='text-center'>REC'S Atrium and Debating Union Present</p>
         </div>
@@ -123,6 +119,20 @@ const Hero = () => {
           <p className='text-center'>February 06, 2023</p>
         </div>
       </div>
+      <motion.div 
+      whileHover={{
+        scale: 1.1
+      }}
+      whileTap={{
+        scale: 0.9
+      }}
+      className='absolute register-now md:bottom-2 p-[0.5rem] bg-black bg-opacity-50 bottom-10 mr-auto ml-auto right-0 left-0 w-[250px] rounded-[2rem]'>
+        <a 
+        className='md:text-[30px] text-[25px] font-bold text-white'
+          target="_blank" rel='noreferrer noopener'
+          href="https://linktr.ee/ATRIUM_REC"
+        ><h1 className=''>Register Now!</h1></a>
+      </motion.div>
     </div>
   )
 }

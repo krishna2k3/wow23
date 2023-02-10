@@ -5,6 +5,7 @@ import Bharati_B_J from "./Bharati B J.png";
 import Charanya_C from "./Charanya C.jpg";
 import Farhan_Subi from "./Farhan Subi.jpg";
 import John_Bosco from "./John Bosco.jpg";
+import Krishna from "./Krishna.jpg";
 import Nivedita_J from "./Nivedita J.jpg";
 import Pavithraa_D from "./Pavithraa D.jpg";
 import Poorna_Padma_M from "./Poorna Padma M.jpg";
@@ -27,6 +28,7 @@ export {
     Charanya_C,
     Farhan_Subi,
     John_Bosco,
+    Krishna,
     Nivedita_J,
     Pavithraa_D,
     Poorna_Padma_M,

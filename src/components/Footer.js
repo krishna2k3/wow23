@@ -12,15 +12,15 @@ const Footer = () => {
                         <h1 className='xs:text-[50px] text-[30px] font-bold  rounded-[2rem] rounded-b-none  px-[2rem] md:py-[0] py-[1rem] text-white'>Contact Us 🤙</h1>
                         <div className='px-[2rem] py-[1rem] bg-white rounded-[3rem]'>
                             <div>
-                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>Charanya: 75500 35669</h2>
+                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>Charanya: xxxxx xxxxx</h2>
                                 <p className='px-[0.5rem]'>President, REC Atrium</p>
-                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>Rhea William: 90032 40041</h2>
+                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>Rhea William: xxxxx xxxxx</h2>
                                 <p className='px-[0.5rem]'>President, REC Debating Union</p>
                             </div>
                             <div>
-                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>John Bosco: 63743 84348</h2>
+                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>John Bosco: xxxxx xxxxx</h2>
                                 <p className='px-[0.5rem]'>Vice - President, REC Atrium</p>
-                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>Vishal: 70223 52020</h2>
+                                <h2 className='font-bold xs:text-[20px] p-[0.5rem]'>Vishal: xxxxx xxxxx</h2>
                                 <p className='px-[0.5rem]'>Vice - President, REC Debating Union</p>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                         <h1 className='font-bold xs:text-[50px] text-[30px] px-[2rem] md:py-[0] py-[1rem] rounded-[2rem] rounded-b-none text-white'>
                             Follow Us 👇
                         </h1>
-                        <div className='bg-white rounded-[3rem] px-[2rem] py-[1rem]'>
+                        <div className='bg-white rounded-[3rem] px-[2rem] pt-[1rem]'>
                             <motion.div
                                 whileHover={{
                                     scale: 1.1
@@ -56,9 +56,10 @@ const Footer = () => {
                                 <a target="_blank" rel='noreferrer noopener'
                                     href='https://www.instagram.com/recdebate/'>
                                     <img className='w-[30px] inline-block' src={logos[4]} alt='instagram' />
-                                    <span className='p-[1rem]'>Debatin Union REC</span>
+                                    <span className='p-[1rem]'>Debating Union REC</span>
                                 </a>
                             </motion.div>
+                            
                         </div>
                     </div>
                 </div>

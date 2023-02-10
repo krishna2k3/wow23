@@ -1,7 +1,7 @@
 :root{
-    --footer-bg: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --footer-bg: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     --new-bg: linear-gradient(to right, #F27121, #E94057, #8A2387);
-    --new-bg2: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    --new-bg2: linear-gradient(to left, #0093E9 0%, #80D0C7 100%);
  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }

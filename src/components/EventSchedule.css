@@ -1,0 +1,35 @@
+:root{
+    --JAM: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    --BANDT: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    --ANTI-SHIPWRECK: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    --LUNCH: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    --LAWYERUP: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    --WOWDEBATE: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    --TAMONGUS: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    --BRW: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+.JAM{
+    background-image: var(--JAM);
+}
+.BANDT{
+    background-image: var(--BANDT);
+}
+.ANTI-SHIPWRECK{
+    background-image: var(--ANTI-SHIPWRECK);
+}
+.LUNCH{
+    background-image: var(--LUNCH);
+}
+.LAWYERUP{
+    background-image: var(--LAWYERUP);
+}
+.WOWDEBATE{
+    background-image: var(--WOWDEBATE);
+}
+.TAMONGUS{
+    background-image: var(--TAMONGUS);
+}
+.BRW{
+    background-image: var(--BRW);
+}

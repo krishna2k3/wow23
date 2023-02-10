@@ -18,7 +18,7 @@ const CoreMember = (props) => {
           </div>
         </motion.div>
         <p className='font-bold text-[30px] text-center'>{props.name}</p>
-        <p className='text-center'>{props.role}, REC</p>
+        <p className='text-center'>{props.role}</p>
       </motion.div>
     </section>
   )
